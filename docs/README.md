@@ -4,6 +4,8 @@ externalLinkIcon: false
 config:
   -
     type: doc-hero
+    full: true
+    backgroundAttachment: 'fixed'
     hero:
       name: Mizuki
       tagline: Astro Next Theme
@@ -12,7 +14,8 @@ config:
         -
           theme: brand
           text: 快速开始 →
-          link: /guide/usage/
+          link: /guide/get-started/
+          target: '_self'
         -
           theme: alt
           text: 在Github上查看 →

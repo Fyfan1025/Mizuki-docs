@@ -18,7 +18,7 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'icon.png', // 站点 Logo
+  logo: 'https://gitee.com/fufan1025/blog_img/raw/master/icon.png', // 站点 Logo
   appearance: true,  // 配置 深色模式
 
   social: [
@@ -39,10 +39,7 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+  footer: false, // 是否启用页脚
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile

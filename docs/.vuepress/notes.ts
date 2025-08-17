@@ -30,21 +30,48 @@ const Note = defineNoteConfig({
   // 手动配置侧边栏结构
   sidebar: [
     {
-      text: '指南',
+      text: '从这里开始',
+      icon: 'ri:book-open-line',
       prefix: '/guide', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
       collapsed: false, // 是否默认折叠
       items: [
-        'usage/', // 相当于 '/guide/usage/'
-        'demo/', // 相当于 '/guide/demo/'
+        'intro/', // 相当于 '/guide/intro/'
+        'get-started/',
+        'deployment/',
       ],
     },
     {
-      text: '测试',
-      prefix: '/test',
+     text: '特色功能',
+     icon: 'ri:star-line',
+     prefix: '/special/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+     collapsed: true, // 是否默认折叠
+     items: [
+        'about/',
+        'diary/',
+        'friends/',
+        'anime/',
+        'navbar-config/',
+        'site-config/',
+        'profile-config/',
+        'other-config/',
+     ] 
+    },
+    {
+      text: '迁移指南',
+      icon: 'ri:git-branch-line',
+      prefix: '/transfer/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
       collapsed: true, // 是否默认折叠
       items: [
-        'test/', // 相当于 '/test/test1/'
-        'test2/', // 相当于 '/test/test2/'
+        'gridea-import/', // 相当于 '/transfer/gridea-import/'
+        'halo-to-mizuki/',
+        'hexo-to-mizuki/',
+        'html-import/',
+        'hugo-to-mizuki/',
+        'jekyll-to-mizuki/',
+        'markdown-import/',
+        'typecho-to-mizuki/',
+        'wordpress-to-mizuki/',
+        'zblog-import/',
       ]
     },
   ],
