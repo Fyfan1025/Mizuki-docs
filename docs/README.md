@@ -3,7 +3,7 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
+    type: doc-hero
     full: true
     background: tint-plate
     tintPlate: 240,210,200
@@ -11,12 +11,17 @@ config:
       name: Mizuki
       tagline: Astro Next Theme
       text: 一个简约&功能丰富的 Astro 博客 主题
+      image: /youxi.webp
     
       actions:
         -
           theme: brand
           text: 快速开始 →
           link: /guide/get-started/
+        -
+          theme: alt
+          text: 主题简介
+          link: /guide/intro/
         -
           theme: alt
           text: 在Github上查看 →
@@ -39,7 +44,7 @@ config:
       -
         title: 多语言
         icon: ⚖
-        details: 内置了 中文/英文支持，还可以自定义添加更多的语言支持
+        details: 内置了 中文/英文/日语等语言支持
       -
         title: 双色主题
         icon: 👨‍💻
@@ -51,11 +56,11 @@ config:
       -
         title: 搜索、评论
         icon: 🔍
-        details: 支持多种评论系统，支持本地搜索、Algolia搜索
+        details: 内置Twikoo评论系统,快速接入
       -
-        title: 加密
+        title: 安全
         icon: 🔒
-        details: 支持全站加密、部分加密（加密目录、加密文章）
+        details: 网站完全静态渲染,安全度高,还配备全局多语言动态翻译,可以翻译文章内容
       -
         title: Markdown 增强
         icon: 📝

@@ -18,7 +18,7 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: '/icon.png', // 站点 Logo
+  logo: '/mizuki.png', // 站点 Logo
   appearance: true,  // 配置 深色模式
 
   social: [

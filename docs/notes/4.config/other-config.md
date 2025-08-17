@@ -73,3 +73,30 @@ export const commentConfig: CommentConfig = {
   },
 };
 ```
+
+## 公告功能配置说明
+
+```typescript
+export const announcementConfig: AnnouncementConfig = {
+	enable: true, // 启用公告功能
+	title: "Announcement", // 公告标题
+	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
+	closable: true, // 允许用户关闭公告
+	link: {
+		enable: true, // 显示链接按钮
+		text: "Learn More", // 链接文本
+		url: "/about/", // 链接地址
+		external: true, // 是否显示外部链接按钮
+	},
+};
+
+```
+
+- `enable`：设置为 `false` 可隐藏公告
+- `title`：公告标题
+- `content`：公告内容
+- `closable`：设置为 `true` 可允许用户关闭公告
+- `link.enable`：设置为 `true` 可显示链接按钮
+- `link.text`：链接按钮文本
+- `link.url`：链接按钮 URL
+- `link.external`：设置为 `true` 可显示外部链接标记按钮

@@ -41,18 +41,6 @@ const Note = defineNoteConfig({
       ],
     },
     {
-     text: '特色功能',
-     icon: 'ri:star-line',
-     prefix: '/special/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
-     collapsed: true, // 是否默认折叠
-     items: [
-        'about/',
-        'diary/',
-        'friends/',
-        'anime/',
-     ] 
-    },
-    {
       text: '配置说明',
       icon: 'ri:settings-2-line',
       prefix: '/config/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
@@ -64,6 +52,30 @@ const Note = defineNoteConfig({
         'other-config/',
       ]
     },
+        {
+      text: '编写文章',
+      icon: 'akar-icons:pencil',
+      prefix: '/press/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
+      items: [
+        'md/',
+        'file/', // 相当于 '/config/site-config/'
+        'folder/',
+      ]
+    },
+    {
+     text: '特色功能',
+     icon: 'ri:star-line',
+     prefix: '/special/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+     collapsed: true, // 是否默认折叠
+     items: [
+        'about/',
+        'diary/',
+        'friends/',
+        'anime/',
+     ] 
+    },
+    
     {
       text: '迁移指南',
       icon: 'ri:git-branch-line',
