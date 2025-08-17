@@ -50,11 +50,19 @@ const Note = defineNoteConfig({
         'diary/',
         'friends/',
         'anime/',
-        'navbar-config/',
-        'site-config/',
-        'profile-config/',
-        'other-config/',
      ] 
+    },
+    {
+      text: '配置说明',
+      icon: 'ri:settings-2-line',
+      prefix: '/config/', // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
+      items: [
+        'site-config/', // 相当于 '/config/site-config/'
+        'profile-config/',
+        'navbar-config/',
+        'other-config/',
+      ]
     },
     {
       text: '迁移指南',

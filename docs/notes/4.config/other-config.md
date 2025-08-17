@@ -1,7 +1,7 @@
 ---
 title: 其他配置说明
 createTime: 2025/08/17 17:21:41
-permalink: /special/other-config/
+permalink: /config/other-config/
 ---
 
 **其他配置说明**

@@ -1,7 +1,7 @@
 ---
 title: 个人资料配置说明
 createTime: 2025/08/17 17:21:41
-permalink: /special/profile-config/
+permalink: /config/profile-config/
 ---
 
 **个人资料配置说明**

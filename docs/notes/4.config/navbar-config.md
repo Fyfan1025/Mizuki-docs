@@ -1,7 +1,7 @@
 ---
 title: 导航栏配置说明
 createTime: 2025/08/17 17:21:41
-permalink: /special/navbar-config/
+permalink: /config/navbar-config/
 ---
 
 **导航栏配置说明**
