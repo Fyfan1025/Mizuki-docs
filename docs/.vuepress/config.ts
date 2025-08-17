@@ -16,12 +16,12 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/Mizuki-docs/',
   lang: 'zh-CN',
-  title: 'Mizuki',
+  title: 'Mizuki主题官方文档',
   description: '一个基于Astro的博客主题',
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://gitee.com/fufan1025/blog_img/raw/master/icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }],
   ],
 
   bundler: viteBundler(),
