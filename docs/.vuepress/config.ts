@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/Mizuki-docs/',
   lang: 'zh-CN',
   title: 'Mizuki主题官方文档',
   description: '一个基于Astro的博客主题',
