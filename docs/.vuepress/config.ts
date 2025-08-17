@@ -14,14 +14,14 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/Mizuki-docs/',
+  base: '/',
   lang: 'zh-CN',
   title: 'Mizuki主题官方文档',
   description: '一个基于Astro的博客主题',
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/icon.svg' }],
   ],
 
   bundler: viteBundler(),
