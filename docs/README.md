@@ -11,7 +11,7 @@ config:
       name: Mizuki
       tagline: Astro Next Theme
       text: 一个简约&功能丰富的 Astro 博客 主题
-      image: /youxi.png
+      image: https://gitee.com/fufan1025/blog_image_other/raw/master/youxi.webp
     
       actions:
         -
