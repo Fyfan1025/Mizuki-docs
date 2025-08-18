@@ -17,10 +17,6 @@ config:
         -
           theme: brand
           text: 快速开始 →
-          link: /guide/get-started/
-        -
-          theme: alt
-          text: 主题简介
           link: /guide/intro/
         -
           theme: alt
