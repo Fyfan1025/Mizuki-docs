@@ -100,3 +100,29 @@ export const announcementConfig: AnnouncementConfig = {
 - `link.text`：链接按钮文本
 - `link.url`：链接按钮 URL
 - `link.external`：设置为 `true` 可显示外部链接标记按钮
+
+
+## 悬浮音乐播放器配置说明
+1.首先在配置文件将 `enable` 设置为 `true`
+```typescript
+export const musicPlayerConfig: MusicPlayerConfig = {
+	enable: true, // Enable music player feature
+};
+```
+
+2.在`src/components/widget/MusicPlayer.svelte`里面的播放列表添加曲目,添加曲目需要向上迭代ID
+
+```typescript
+export const announcementConfig: AnnouncementConfig = {
+	enable: true, // 启用公告功能
+	title: "Announcement", // 公告标题
+	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
+	closable: true, // 允许用户关闭公告
+	link: {
+		enable: true, // 显示链接按钮
+		text: "Learn More", // 链接文本
+		url: "/about/", // 链接地址
+		external: true, // 是否显示外部链接按钮
+	},
+};
+```
